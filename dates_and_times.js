@@ -13,6 +13,8 @@ val = today.getMinutes();
 val = today.getSeconds();
 val = today.getTime();
 
-birthday.setMonth(2)
+birthday.setMonth(2);
+birthday.setDate(2);
+birthday.setFullYear(1986);
 
 console.log(birthday);
