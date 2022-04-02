@@ -9,5 +9,8 @@ val = today.getDate();
 val = today.getDay();
 val = today.getFullYear();
 val = today.getHours();
+val = today.getMinutes();
+val = today.getSeconds();
+val = today.getTime();
 
 console.log(val);
