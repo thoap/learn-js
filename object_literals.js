@@ -9,7 +9,7 @@ const person = {
         state: 'FL'
     },
     getBirthYear: function () {
-        return 1986;
+        return 2022 - this.age;
     }
 }
 
