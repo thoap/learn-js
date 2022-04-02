@@ -7,5 +7,6 @@ birthday = new Date('September 10 1981');
 val = today.getMonth();
 val = today.getDate();
 val = today.getDay();
+val = today.getFullYear();
 
 console.log(val);
