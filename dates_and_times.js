@@ -13,4 +13,6 @@ val = today.getMinutes();
 val = today.getSeconds();
 val = today.getTime();
 
-console.log(val);
+birthday.setMonth(2)
+
+console.log(birthday);
