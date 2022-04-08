@@ -22,3 +22,10 @@ console.log(square(8));
 
 console.log(square());
 // 9
+
+// IMMEDIATELY INVOKABLE FUCTION EXPRESSIONS - IFFEs
+// = anonymous function
+
+(function(){
+    console.log('IFFE ran...');
+})();
