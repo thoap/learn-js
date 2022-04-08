@@ -23,7 +23,7 @@ console.log(square(8));
 console.log(square());
 // 9
 
-// IMMEDIATELY INVOKABLE FUCTION EXPRESSIONS - IFFEs
+// IMMEDIATELY INVOKABLE FUNCTION EXPRESSIONS - IFFEs
 // = anonymous function
 
 (function(){
@@ -33,3 +33,18 @@ console.log(square());
 (function(name){
     console.log(`Hi ${name}!`);
 })('Brad');
+
+
+// Property Methods
+
+const todo = {
+    add: function(){
+        console.log('Add todo...');
+    },
+    edit: function (id) {
+        console.log(`Edit todo ${id}`);
+    }
+}
+
+todo.add();
+todo.edit(22);
