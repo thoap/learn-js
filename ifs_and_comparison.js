@@ -1,4 +1,4 @@
-// const id = 100;
+const id = 100;
 
 // if (id == 100) {
 //     console.log('CORRECT!');
@@ -44,3 +44,7 @@ if (age <= 12 || age >= 65) {
 } else {
     console.log(`${name} is eligible to run in the race.`);
 }
+
+
+// Ternerary operator
+console.log(id === 100 ? 'CORRECT' : 'INCORRECT');
