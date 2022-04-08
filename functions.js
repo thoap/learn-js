@@ -1,10 +1,12 @@
 // Function declarations
 
-function greet(lastName, firstName) {
+function greet(lastName = 'Doe', firstName = 'John') {
 
     return `Hello ${firstName} ${lastName}.`;
 };
 
-console.log(greet('Doe', 'John'));
+console.log(greet('Steve', 'Smith'));
+// will return 'Hello Smith Steve.'
+
 console.log(greet());
-// will return 'Hello undefined undefined.'
+// will return 'Hello John Doe.', b/c of defaults.
