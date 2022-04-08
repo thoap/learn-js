@@ -1,8 +1,8 @@
 // Function declarations
 
-function greet() {
-    // console.log('Hello.');
-    return 'Hello';
+function greet(lastName, firstName) {
+
+    return `Hello ${firstName} ${lastName}.`;
 };
 
-console.log(greet());
+console.log(greet('Doe', 'John'));
