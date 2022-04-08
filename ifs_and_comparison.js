@@ -20,9 +20,9 @@
 //     console.log('INCORRECT! Given id is different from int 100.');
 // }
 
-
-if (id) {
+// Test if undefined
+if (typeof id !== 'undefined') {
     console.log(`ID is ${id}`);
 } else {
-    console.log('There is o variable `id`');
+    console.log('There is no variable `id`');
 }
