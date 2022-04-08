@@ -10,3 +10,15 @@ console.log(greet('Steve', 'Smith'));
 
 console.log(greet());
 // will return 'Hello John Doe.', b/c of defaults.
+
+// Function Expressions
+
+const square = function(x = 3) {
+    return x * x;
+};
+
+console.log(square(8));
+// 64
+
+console.log(square());
+// 9
