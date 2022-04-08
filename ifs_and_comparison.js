@@ -1,4 +1,4 @@
-const id = '100';
+const id = 100;
 
 if (id == 100) {
     console.log('CORRECT!');
@@ -10,13 +10,19 @@ if (id == 100) {
 if (id != 100) {
     console.log('CORRECT!');
 } else {
-    console.log('INCORRECT!')
+    console.log('INCORRECT!');
 }
 
 // test value and type at the same Time
 if (id === 100) {
-    console.log('CORRECT!')
+    console.log('CORRECT!');
 } else {
-    console.log('INCORRECT! Given id is different from int 100.')
+    console.log('INCORRECT! Given id is different from int 100.');
+}
 
+
+if (id) {
+    console.log(`ID is ${id}`);
+} else {
+    console.log('There is o variable `id`');
 }
