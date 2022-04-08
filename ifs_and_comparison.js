@@ -14,3 +14,9 @@ if (id != 100) {
 }
 
 // test value and type at the same Time
+if (id === 100) {
+    console.log('CORRECT!')
+} else {
+    console.log('INCORRECT! Given id is different from int 100.')
+
+}
