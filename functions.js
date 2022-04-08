@@ -29,3 +29,7 @@ console.log(square());
 (function(){
     console.log('IFFE ran...');
 })();
+
+(function(name){
+    console.log(`Hi ${name}!`);
+})('Brad');
