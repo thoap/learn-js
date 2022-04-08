@@ -26,3 +26,15 @@ if (typeof id !== 'undefined') {
 } else {
     console.log('There is no variable `id`');
 }
+
+
+const age = 20;
+const name = 'Steve';
+
+if (age > 0 && age < 12) {
+    console.log(`${name} is a child.`)
+} else if (age >= 13 && age <= 19) {
+    console.log(`${name} is a teenager`)
+} else {
+    console.log(`${name} is an adult.`)
+}
