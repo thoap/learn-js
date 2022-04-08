@@ -48,3 +48,10 @@ const todo = {
 
 todo.add();
 todo.edit(22);
+
+// define methods outside of the object for the object
+todo.delete = function(){
+    console.log('Delete todo...');
+}
+
+todo.delete();
