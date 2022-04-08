@@ -32,9 +32,15 @@ const age = 20;
 const name = 'Steve';
 
 if (age > 0 && age < 12) {
-    console.log(`${name} is a child.`)
+    console.log(`${name} is a child.`);
 } else if (age >= 13 && age <= 19) {
-    console.log(`${name} is a teenager`)
+    console.log(`${name} is a teenager`);
 } else {
-    console.log(`${name} is an adult.`)
+    console.log(`${name} is an adult.`);
+}
+
+if (age <= 12 || age >= 65) {
+    console.log(`${name} cannot run in the race!`);
+} else {
+    console.log(`${name} is eligible to run in the race.`);
 }
