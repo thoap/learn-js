@@ -6,3 +6,5 @@ function greet(lastName, firstName) {
 };
 
 console.log(greet('Doe', 'John'));
+console.log(greet());
+// will return 'Hello undefined undefined.'
